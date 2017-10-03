@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Himachal Pradesh</string>
+    <string name="brief_intro">"
+                        Himachal Pradesh - meaning Abode of Snow,is a state of India located in North India.It is bordered by Jammu and Kashmir on the north, Punjab and Chandigarh on the west, Haryana on the southwest, Uttarakhand on the southeast, and the Tibet Autonomous Region on the east.At its southernmost point, it also touches the state of Uttar Pradesh.The name was coined from the Sanskrit—Him means 'snow' and achal means 'land' or 'abode'—by Acharya Diwakar Datt Sharma, one of the state's eminent Sanskrit scholars.
+
+                        Coordinates (Shimla): 31°6′12″N 77°10′20″
+                        Statehood :	          25 January 1971
+                        Capitals:	          Shimla, Dharamshala (Second Capital in Winter)
+                        Districts:	          12
+                        Divisions:	          3 (Kangra, Mandi, Shimla)
+                        Sub-Divisions:	      62
+                        Blocks:     	      78
+                        Tehsils:    	      145
+                        Lok Sabha Seats:      4
+                        Rajya Sabha Seats:	  3
+                        Assembly Constituencies:	68
+
+                                • Governor:	Acharya Dev Vrat
+                                • Chief Justice:	Justice Sanjay Karol
+                                • Chief Minister:	Virbhadra Singh (INC)
+                                • Legislature:	Unicameral (68 seats)
+                                • Parliamentary constituency:	4
+</string>
+    <string name="title_activity_detailed">More Details</string>
+    <string name="district_brief">"
+        below is the list of 12 districts, click on button to know more about these"</string>
+    <string name="rivers_brief">"There are 5 major rivers flowing through Himachal Pradesh
+        • Beas
+        • Chenab
+        • Ravi
+        • Satluj - longest river in H.P
+        • Yamuna - shortest river in H.P
+
+
+
+    "</string>
+    <string name="history_brief">"The region of Himachal Pradesh was called 'Deva Bhoomi ' (the land of the gods). From the early period of its history it was inhabited by tribes like the Koilis, Halis, Dagis, Dhaugris, Dasa, Khasas, Kinnars and Kirats. The Aryan influence in kangra Fort this area of India dates to the period before the Rigveda. Sankar Varma, the king of Kashmir exercised his influence over regions of Himachal Pradesh in about 883 AD. This region witnessed the invasion of Mahmud of Ghazni in 1009AD, who during that period invaded and looted the wealth from the temples in the North of India. In about 1043AD the Rajputs ruled over this territory. Known for its vibrant and exquisite natural scenery it received the royal patronage of the Mughal rulers who erected several works of art as an appreciation of this land. In 1773 AD the Rajputs under Sansar Chand possessed this region, till the attack by Maharaja Ranjit Singh in 1804 which crushed the Rajput power here. The Gurkhas who migrated from Nepal captured this area and devastated it. In about the early 19th century the British exercised their influence and annexed the areas of Shimla after the Gurkha War of 1815-16. It became a centrally administered territory in 1948 with the integration of 31 hill states and received additional regions added to it in 1966.
+        "</string>
+</resources>
