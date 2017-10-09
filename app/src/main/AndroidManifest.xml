@@ -19,6 +19,10 @@
         <activity
             android:name=".detailedActivity"
             android:label="@string/title_activity_detailed"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".riversActivity"
+            android:label="@string/title_activity_rivers"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
