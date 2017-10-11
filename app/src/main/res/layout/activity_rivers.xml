@@ -18,6 +18,7 @@
             android:background="?attr/colorPrimary"
             app:popupTheme="@style/AppTheme.PopupOverlay" />
 
+
     </android.support.design.widget.AppBarLayout>
 
     <ScrollView
@@ -29,6 +30,7 @@
             android:layout_height="wrap_content"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="16dp">
+
 
             <ImageView
                 android:id="@+id/imageViewrivers"
@@ -58,14 +60,200 @@
                 android:layout_below="@+id/imageViewrivers"
                 android:layout_width="395dp"
                 android:layout_height="wrap_content"
-                android:text="RIVERS	VEDIC NAME	SANSKRIT NAME
-        Satluj	Satudri or Satudru	Saturdai
-        Ravi	Parushani	Iravati
-        Yamuna	Kalinidi	Yamunotri
-        Beas	Arjikiya	Vipasha
-        Chenab	Asikni	Chandrabhaga"
+                android:text="Below is the list of rivers, their vedic and sanskrit names"
                 android:elevation="24dp"
                 android:gravity="top"/>
+<!--first table-->
+            <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/rivernames"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_below="@+id/riversintro"
+                android:stretchColumns="0,1,2">
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="RIVERS"
+                        android:textAlignment="textStart" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="VEDIC NAME" />
+
+                    <TextView
+                        android:padding="3dip"
+
+                        android:text="SANSKRIT NAME" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Satluj" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Satudri or Satudru" />
+
+                    <TextView
+                        android:padding="3dip"
+
+                        android:text="Saturdai" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=" Ravi" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Parushani" />
+
+                    <TextView
+                        android:padding="3dip"
+
+                        android:text="Iravati" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=" Yamuna" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Kalinidi" />
+
+                    <TextView
+                        android:padding="3dip"
+
+                        android:text="Yamunotri" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Beas" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Arjikiya" />
+
+                    <TextView
+                        android:padding="3dip"
+
+                        android:text="Vipasha" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Chenab" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Asikni" />
+
+                    <TextView
+                        android:padding="3dip"
+
+                        android:text="Chandrabhaga" />
+                </TableRow>
+            </TableLayout>
+            <!--new table-->
+            <TextView
+                android:id="@+id/riverorigintext"
+                android:layout_width="395dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rivernames"
+                android:elevation="24dp"
+                android:gravity="top"
+                android:paddingTop="50dp"
+                android:text="Below is the list of rivers and their origins" />
+
+            <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/riverorigin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/riverorigintext"
+                android:stretchColumns="0,1">
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="RIVERS"
+                        android:textAlignment="textStart" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="ORIGIN" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Satluj" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Mansarovar (Tibet) (Rakas lake)" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=" Ravi" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Bara Bhangal" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=" Yamuna" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Yamunotri (from Kalind Parvat in Utter Kashi)" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Beas" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Rotang pass (Beas Kund in Pir Panjal range)" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Chenab" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Baralacha" />
+                </TableRow>
+            </TableLayout>
 
 
         </RelativeLayout>

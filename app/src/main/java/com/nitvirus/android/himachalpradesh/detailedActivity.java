@@ -36,6 +36,37 @@ public class detailedActivity extends AppCompatActivity {
 
                 }
         );
+        Button bilaspur = (Button)findViewById(R.id.bilaspur);
+        bilaspur.setOnClickListener(
+                new Button.OnClickListener(){
+                    @Override
+                    public void onClick(View v) {
+                        startActivity(new Intent(detailedActivity.this, bilaspurActivity.class));
+                    }
+
+                }
+        );
+        Button chamba = (Button)findViewById(R.id.chamba);
+        chamba.setOnClickListener(
+                new Button.OnClickListener(){
+                    @Override
+                    public void onClick(View v) {
+                        startActivity(new Intent(detailedActivity.this, chambaActivity.class));
+                    }
+
+                }
+        );
+        Button hamirpur = (Button)findViewById(R.id.hamirpur);
+        hamirpur.setOnClickListener(
+                new Button.OnClickListener(){
+                    @Override
+                    public void onClick(View v) {
+                        startActivity(new Intent(detailedActivity.this, hamirpurActivity.class));
+                    }
+
+                }
+        );
+
     }
 
 }

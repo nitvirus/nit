@@ -23,6 +23,18 @@
         <activity
             android:name=".riversActivity"
             android:label="@string/title_activity_rivers"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".bilaspurActivity"
+            android:label="@string/title_activity_bilaspur"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".chambaActivity"
+            android:label="@string/title_activity_chamba"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".hamirpurActivity"
+            android:label="@string/title_activity_hamirpur"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
