@@ -90,7 +90,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/brief_intro"
-                android:background="@color/colorPrimary"
+                android:background="@android:color/darker_gray"
                 android:elevation="21dp"
                 android:text="READ MORE"
                 android:textColorLink="#FFF" />

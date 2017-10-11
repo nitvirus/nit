@@ -32,6 +32,8 @@
             tools:layout_editor_absoluteY="16dp">
 
 
+
+
             <ImageView
                 android:id="@+id/imageViewrivers"
                 android:layout_width="wrap_content"
@@ -254,7 +256,16 @@
                         android:text="Baralacha" />
                 </TableRow>
             </TableLayout>
-
+            <!--table ends-->
+            <TextView
+                android:id="@+id/riverssummary"
+                android:layout_width="395dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/riverorigin"
+                android:elevation="24dp"
+                android:gravity="top"
+                android:paddingTop="50dp"
+                android:text="@string/riverssummary" />
 
         </RelativeLayout>
     </ScrollView>
