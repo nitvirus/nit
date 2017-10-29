@@ -79,6 +79,8 @@
                 android:layout_marginTop="22dp"
                 android:elevation="24dp"
                 android:gravity="top"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
                 android:text="Brief Introduction"
                 android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
                 tools:layout_editor_absoluteX="6dp"
